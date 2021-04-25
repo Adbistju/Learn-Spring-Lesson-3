@@ -17,7 +17,7 @@
                   version="1.0">
         <role rolename="manager-gui"/>
         <role rolename="manager-script"/>
-        <user username="ads" password="ad s" roles="admin-gui,manager-gui,tomcat,manager-jmx,manager-script" />
+        <user username="ads" password="ads" roles="admin-gui,manager-gui,tomcat,manager-jmx,manager-script" />
     </tomcat-users>
 
     <properties>
@@ -66,22 +66,32 @@
             <artifactId>thymeleaf-spring5</artifactId>
             <version>3.0.10.RELEASE</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
+
+
     </dependencies>
 
     <build>
         <finalName>java-web-project</finalName>
         <plugins>
-            <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <url>http://localhost:8080/manager/text</url>
-                    <username>ads</username>
-                    <password>ads</password>
-                    <path>/app</path>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.tomcat.maven</groupId>-->
+<!--                <artifactId>tomcat7-maven-plugin</artifactId>-->
+<!--                <version>2.2</version>-->
+<!--                <configuration>-->
+<!--                    <url>http://localhost:8080/manager/text</url>-->
+<!--                    <username>ads</username>-->
+<!--                    <password>ads</password>-->
+<!--                    <path>/app</path>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

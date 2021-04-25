@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.siteNavigationBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.paragraff {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f3f68;
+  width: 425px;
+}
+
+.zagolowokh1 {
+  font-size: 64px;
+  width: 510px;
+  color: #1f3f68;
+}
+
+.zagolowokh2kontact {
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+}
+
+.zagolowokh3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.zagolowokh4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f3f68;
+}
+
+input {
+  /* textarea*/
+  border: 1px solid #356ead;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+.textarea {
+  border: 1px solid #356ead;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+button {
+  background-color: #5a98d0;
+  box-shadow: 5px 20px 50px rgba (16, 112, 177, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.communication {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weidth {
+  height: 250px;
+}
+
+.card {
+  border: 8px solid royalblue;
+  padding: 7px;
+  border-radius: 15px;
+  width: 250px;
+}
+
+.ulCont {
+  padding-left: 20px;
+}
+
+.map {
+  width: 1120px;
+  border: 8px solid royalblue;
+  padding: 7px;
+  border-radius: 15px;
+}
+.mapcenter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contentContact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.basementZag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
